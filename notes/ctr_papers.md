@@ -8,7 +8,6 @@ ctr papers
 　　为了监控系统的健康程度，通过定义一堆metrics来进行指标监控，甚至还需要匿名检测算法；
 
 
-
 ### Ensemble Methods for Personalized E-Commerce Search Challenge ###
 
 total steps:
@@ -23,7 +22,7 @@ total steps:
 	c, ctr and cvr of each product;    
 	d, word length of each product;    
 	e, present rank of presented product's position
-	f, price, product_price_fea(A) = $$$ \frac {\\#product\\_behavior(A)} {price + 1} $$$
+	f, price, product_price_fea(A) = $ \frac {\\#product\\_behavior(A)} {price + 1} $
 	
 	time-based statistics features:    
 	不同产品的流行度随着时间的推移会发生相应的变化；设置了周、半月、月、两个月的时间间隔；
@@ -49,9 +48,11 @@ total steps:
 
 4. check results
 
-	NDCG, final NDCG = $$$ 0.8 * NDCG_l + 0.2 * NDCG_f $$$
+	NDCG, final NDCG = $$ 0.8 * NDCG_l + 0.2 * NDCG_f $$
 
 
 
 
 #### 参考文献 ####
+
+
